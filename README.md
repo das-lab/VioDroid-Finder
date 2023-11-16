@@ -7,7 +7,6 @@ Consistency for Android Apps"
 
 We collect all Chinese regulations related personal privacy in `wiki`.
 
-
 ## Data
 
 Data used in this study contains:
@@ -16,8 +15,11 @@ Data used in this study contains:
 2. Other apps that are used for creating privacy policy corpus: 40000+ apps
 
 For each app, we provide its privacy policy text, APK file, privacy policy screenshot (of their privacy policy web page)
-and their metadata (including privacy policy url, privacy policy page source code, etc.). We present an example
-in `dataset/apps`.
+and their metadata (including app version, app developer, app update time, app download count, privacy policy url,
+privacy policy page source code, etc.). We present an example
+in `dataset/apps`. Note that the name `C100003425-1.3.10.txt` consists of the app id (C100003425, the corresponding home
+page is https://appgallery.huawei.com/app/C100003425) and app
+version (1.3.10).
 
 All these data can be downloaded from `https://pan.baidu.com/s/1ulm35u6AOL83VQbaye_o-g?pwd=85f3`
 
