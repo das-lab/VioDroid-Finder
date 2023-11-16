@@ -1,0 +1,468 @@
+{
+  "base_info_res": {
+    "application_information": {
+      "application_name": "书旗小说",
+      "application_version": "11.8.3.181",
+      "package_name": "com.shuqi.controller"
+    },
+    "apk_file": {
+      "file_name": "C6092-11.8.3.181.apk",
+      "fingerprint": [
+        "MD5: 6df035f6e74d27b4115d69d8acfdcddf",
+        "SHA-1: 83510294268bfdc0ae0569dce64d69f001eac4a6",
+        "SHA-256: 17aa83d3690b7792a71406e363a52907375574550cda56658f1ee8408a633c1a"
+      ],
+      "certificate_information": [
+        "APK is signed: True\n",
+        "Certificate #0",
+        "Issuer:",
+        "Common Name: Shuqi, Organizational Unit: Shuqi.com, Organization: Shuqi.com, Locality: Shuqi.com, State/Province: Shuqi.com, Country: CN",
+        "Subject:",
+        "Common Name: Shuqi, Organizational Unit: Shuqi.com, Organization: Shuqi.com, Locality: Shuqi.com, State/Province: Shuqi.com, Country: CN",
+        "Serial number: 1255574811",
+        "Hash algorithm: sha1",
+        "Signature algorithm: rsassa_pkcs1v15",
+        "SHA-1 thumbprint: 18fdfccbb2f1933dacc5f528105e395ea85b7f74",
+        "SHA-256 thumbprint: b8cb8ad999dae1e599c60206028f22f0e30147379cc7aa2605cb8c4e1a981830",
+        ""
+      ]
+    },
+    "androidmanifest.xml": {
+      "main_activity": "com.shuqi.activity.SplashActivity",
+      "sdk_versions": [
+        "Declared target SDK: 26",
+        "Effective target SDK: 26",
+        "Min SDK: 21",
+        "Max SDK: None"
+      ]
+    }
+  },
+  "api_res": [
+    {
+      "class": "android.content.pm.PackageManager",
+      "returnType": "java.util.List",
+      "method": "queryIntentActivities",
+      "params": "(android.content.Intent,int)",
+      "detail": "此应用程序查询某个app是否有注册了某个intent（起到了获取其他安装的应用程序信息的作用）。",
+      "smallType": "应用程序列表",
+      "bigType": "设备信息"
+    },
+    {
+      "class": "android.content.pm.PackageManager",
+      "returnType": "java.util.List",
+      "method": "queryIntentServices",
+      "params": "(android.content.Intent,int)",
+      "detail": "此应用程序查询所有注册了某个intent的app（类似于获取其他安装的应用程序信息的作用）。",
+      "smallType": "应用程序列表",
+      "bigType": "设备信息"
+    },
+    {
+      "class": "android.content.pm.PackageManager",
+      "returnType": "java.util.List",
+      "method": "queryBroadcastReceivers",
+      "params": "(android.content.Intent,int)",
+      "detail": "此应用程序检索所有可以处理给定Intent广播的接收器。",
+      "smallType": "应用程序列表",
+      "bigType": "设备信息"
+    },
+    {
+      "class": "android.content.pm.PackageManager",
+      "method": "getInstalledPackages",
+      "detail": "此应用程序获取已安装应用程序列表。",
+      "smallType": "应用程序列表",
+      "bigType": "设备信息"
+    },
+    {
+      "class": "android.content.pm.PackageManager",
+      "returnType": "java.util.List",
+      "method": "getInstalledApplications",
+      "params": "(int)",
+      "detail": "此应用程序获取已安装的应用程序列表。",
+      "smallType": "应用程序列表",
+      "bigType": "设备信息"
+    },
+    {
+      "class": "android.bluetooth.BluetoothAdapter",
+      "method": "isEnabled",
+      "smallType": "蓝牙信息",
+      "bigType": "设备信息",
+      "detail": "应用使用设备的蓝牙功能。"
+    },
+    {
+      "class": "android.bluetooth.BluetoothAdapter",
+      "method": "enable",
+      "smallType": "蓝牙信息",
+      "bigType": "设备信息",
+      "detail": "应用使用设备的蓝牙功能。"
+    },
+    {
+      "class": "android.bluetooth.BluetoothAdapter",
+      "method": "getDefaultAdapter",
+      "smallType": "蓝牙信息",
+      "bigType": "设备信息",
+      "detail": "应用使用设备的蓝牙功能。"
+    },
+    {
+      "class": "android.bluetooth.BluetoothAdapter",
+      "method": "getState",
+      "smallType": "蓝牙信息",
+      "bigType": "设备信息",
+      "detail": "应用使用设备的蓝牙功能。"
+    },
+    {
+      "class": "android.bluetooth.BluetoothAdapter",
+      "method": "isDiscovering",
+      "smallType": "蓝牙信息",
+      "bigType": "设备信息",
+      "detail": "应用使用设备的蓝牙功能。"
+    },
+    {
+      "class": "android.bluetooth.BluetoothAdapter",
+      "method": "cancelDiscovery",
+      "smallType": "蓝牙信息",
+      "bigType": "设备信息",
+      "detail": "应用使用设备的蓝牙功能。"
+    },
+    {
+      "class": "android.bluetooth.BluetoothAdapter",
+      "method": "startDiscovery",
+      "smallType": "蓝牙信息",
+      "bigType": "设备信息",
+      "detail": "应用使用设备的蓝牙功能。"
+    },
+    {
+      "class": "android.bluetooth.BluetoothAdapter",
+      "method": "getAddress",
+      "smallType": "蓝牙信息",
+      "bigType": "设备信息",
+      "detail": "应用使用设备的蓝牙功能。"
+    },
+    {
+      "class": "android.bluetooth.BluetoothAdapter",
+      "returnType": "java.lang.String",
+      "method": "getAddress",
+      "params": "()",
+      "detail": "此应用程序获取蓝牙适配器的硬件地址。",
+      "smallType": "设备标识符",
+      "bigType": "设备信息"
+    },
+    {
+      "class": "android.bluetooth.BluetoothAdapter",
+      "method": "getRemoteDevice",
+      "smallType": "蓝牙信息",
+      "bigType": "设备信息",
+      "detail": "应用使用设备的蓝牙功能。"
+    },
+    {
+      "class": "android.bluetooth.BluetoothAdapter",
+      "method": "startLeScan",
+      "smallType": "蓝牙信息",
+      "bigType": "设备信息",
+      "detail": "应用使用设备的蓝牙功能。"
+    },
+    {
+      "class": "android.bluetooth.BluetoothAdapter",
+      "method": "stopLeScan",
+      "smallType": "蓝牙信息",
+      "bigType": "设备信息",
+      "detail": "应用使用设备的蓝牙功能。"
+    },
+    {
+      "class": "android.bluetooth.BluetoothAdapter",
+      "method": "getName",
+      "smallType": "蓝牙信息",
+      "bigType": "设备信息",
+      "detail": "应用使用设备的蓝牙功能。"
+    },
+    {
+      "class": "android.bluetooth.BluetoothAdapter",
+      "method": "getScanMode",
+      "smallType": "蓝牙信息",
+      "bigType": "设备信息",
+      "detail": "应用使用设备的蓝牙功能。"
+    },
+    {
+      "class": "android.location.Location",
+      "returnType": "double",
+      "method": "getLongitude",
+      "params": "()",
+      "detail": "此应用程序获取纬度。",
+      "smallType": "地理位置",
+      "bigType": "位置信息"
+    },
+    {
+      "class": "android.location.Location",
+      "returnType": "double",
+      "method": "getLatitude",
+      "params": "()",
+      "detail": "此应用程序获取经度。",
+      "smallType": "地理位置",
+      "bigType": "位置信息"
+    },
+    {
+      "class": "android.media.AudioRecord",
+      "returnType": "int",
+      "method": "read",
+      "params": "(short[],int,int)",
+      "detail": "此应用程序捕获音频。",
+      "smallType": "麦克风",
+      "bigType": "媒体信息"
+    },
+    {
+      "class": "android.media.AudioRecord",
+      "returnType": "int",
+      "method": "read",
+      "params": "(byte[],int,int)",
+      "detail": "此应用程序捕获音频。",
+      "smallType": "麦克风",
+      "bigType": "媒体信息"
+    },
+    {
+      "class": "android.media.AudioRecord",
+      "returnType": "int",
+      "method": "read",
+      "params": "(java.nio.ByteBuffer,int)",
+      "detail": "此应用程序捕获音频。",
+      "smallType": "麦克风",
+      "bigType": "媒体信息"
+    },
+    {
+      "class": "android.media.AudioRecord",
+      "returnType": "int",
+      "method": "read",
+      "params": "(short[],int,int)",
+      "detail": "此应用程序捕获音频。",
+      "smallType": "麦克风",
+      "bigType": "媒体信息"
+    },
+    {
+      "class": "android.media.AudioRecord",
+      "returnType": "int",
+      "method": "read",
+      "params": "(byte[],int,int)",
+      "detail": "此应用程序捕获音频。",
+      "smallType": "麦克风",
+      "bigType": "媒体信息"
+    },
+    {
+      "class": "android.media.AudioRecord",
+      "returnType": "int",
+      "method": "read",
+      "params": "(java.nio.ByteBuffer,int)",
+      "detail": "此应用程序捕获音频。",
+      "smallType": "麦克风",
+      "bigType": "媒体信息"
+    },
+    {
+      "class": "android.hardware.SensorManager",
+      "returnType": "android.hardware.Sensor",
+      "method": "getDefaultSensor",
+      "params": "(int)",
+      "detail": "此应用程序获取给定类型的默认传感器。",
+      "smallType": "传感器",
+      "bigType": "设备信息"
+    },
+    {
+      "class": "android.hardware.SensorManager",
+      "returnType": "java.util.List",
+      "method": "getSensorList",
+      "params": "(int)",
+      "detail": "此应用程序获取给定类型的传感器列表。",
+      "smallType": "传感器",
+      "bigType": "设备信息"
+    },
+    {
+      "class": "android.location.LocationManager",
+      "returnType": "android.location.Location",
+      "method": "getLastKnownLocation",
+      "params": "(java.lang.String)",
+      "detail": "此应用程序获取最后一次得到的位置信息。",
+      "smallType": "地理位置",
+      "bigType": "位置信息"
+    },
+    {
+      "class": "android.location.LocationManager",
+      "method": "getProviders",
+      "detail": "此应用程序从所有可用提供商（WiFi、GPS等）读取位置信息。",
+      "smallType": "地理位置",
+      "bigType": "位置信息"
+    },
+    {
+      "class": "android.content.ClipboardManager",
+      "method": "getPrimaryClip",
+      "detail": "此应用程序访问剪贴板中存储的数据。",
+      "smallType": "剪贴板",
+      "bigType": "设备信息"
+    },
+    {
+      "class": "android.telephony.TelephonyManager",
+      "method": "getCellLocation",
+      "detail": "此应用程序读取设备的当前位置。",
+      "smallType": "地理位置",
+      "bigType": "位置信息"
+    },
+    {
+      "class": "android.telephony.TelephonyManager",
+      "returnType": "java.lang.String",
+      "method": "getDeviceId",
+      "params": "()",
+      "detail": "此应用程序获取手机与通讯相关的状态和信息，返回唯一的设备ID。如果是GSM网络，返回IMEI；如果是CDMA网络，返回MEID；如果设备ID是不可用的返回null。",
+      "smallType": "设备标识符",
+      "bigType": "设备信息"
+    },
+    {
+      "class": "android.telephony.TelephonyManager",
+      "returnType": "java.lang.String",
+      "method": "getSubscriberId",
+      "params": "()",
+      "detail": "此应用程序获取SIM卡唯一标识IMSI（国际移动用户识别码）。",
+      "smallType": "设备标识符",
+      "bigType": "设备信息"
+    },
+    {
+      "class": "android.telephony.TelephonyManager",
+      "returnType": "java.lang.String",
+      "method": "getSimSerialNumber",
+      "params": "()",
+      "detail": "此应用程序获取SIM卡唯一标识IMEI（国际移动设备识别码）。",
+      "smallType": "设备标识符",
+      "bigType": "设备信息"
+    },
+    {
+      "class": "android.telephony.TelephonyManager",
+      "returnType": "java.lang.String",
+      "method": "getDeviceId",
+      "params": "()",
+      "detail": "此应用程序获取手机与通讯相关的状态和信息，返回唯一的设备ID。如果是GSM网络，返回IMEI；如果是CDMA网络，返回MEID；如果设备ID是不可用的返回null。",
+      "smallType": "设备标识符",
+      "bigType": "设备信息"
+    },
+    {
+      "class": "android.telephony.TelephonyManager",
+      "returnType": "java.lang.String",
+      "method": "getLine1Number",
+      "params": "()",
+      "detail": "此应用程序获取手机号码。",
+      "smallType": "手机号码",
+      "bigType": "个人基本信息"
+    },
+    {
+      "class": "android.net.wifi.WifiInfo",
+      "returnType": "java.lang.String",
+      "method": "getMacAddress",
+      "params": "()",
+      "detail": "此应用程序获取WiFi网卡的MAC地址。",
+      "smallType": "MAC信息",
+      "bigType": "设备信息"
+    },
+    {
+      "class": "android.hardware.Camera",
+      "method": "open",
+      "smallType": "相机",
+      "bigType": "媒体信息",
+      "detail": "对相机功能的使用。"
+    },
+    {
+      "class": "android.hardware.Camera",
+      "method": "release",
+      "smallType": "相机",
+      "bigType": "媒体信息",
+      "detail": "对相机功能的使用。"
+    },
+    {
+      "class": "android.provider.ContactsContract.Contacts",
+      "returnType": "android.net.Uri",
+      "method": "lookupContact",
+      "params": "(android.content.ContentResolver,android.net.Uri)",
+      "detail": "此应用程序查询联系人。",
+      "smallType": "通信录",
+      "bigType": "通讯信息"
+    },
+    {
+      "class": "android.provider.ContactsContract.Contacts",
+      "method": "lookupContact",
+      "detail": "此应用程序读取联系人。",
+      "smallType": "通信录",
+      "bigType": "通讯信息"
+    },
+    {
+      "class": "android.provider.ContactsContract",
+      "method": "lookupContact",
+      "detail": "此应用程序获取联系人。（检查到有android.provider.ContactsContract类）",
+      "smallType": "通信录",
+      "bigType": "通讯信息"
+    },
+    {
+      "class": "android.provider.ContactsContract.Contacts",
+      "method": "openContactPhotoInputStream",
+      "detail": "此应用程序读取联系人。",
+      "smallType": "通信录",
+      "bigType": "通讯信息"
+    },
+    {
+      "class": "android.provider.ContactsContract",
+      "method": "openContactPhotoInputStream",
+      "detail": "此应用程序获取联系人。（检查到有android.provider.ContactsContract类）",
+      "smallType": "通信录",
+      "bigType": "通讯信息"
+    },
+    {
+      "class": "android.provider.ContactsContract.Contacts",
+      "method": "openContactPhotoInputStream",
+      "detail": "此应用程序读取联系人。",
+      "smallType": "通信录",
+      "bigType": "通讯信息"
+    },
+    {
+      "class": "android.provider.ContactsContract",
+      "method": "openContactPhotoInputStream",
+      "detail": "此应用程序获取联系人。（检查到有android.provider.ContactsContract类）",
+      "smallType": "通信录",
+      "bigType": "通讯信息"
+    }
+  ],
+  "permission_res": [
+    {
+      "permission": "CAMERA",
+      "smallType": "相机",
+      "bigType": "媒体信息",
+      "detail": "允许应用访问相机设备。"
+    },
+    {
+      "permission": "QUERY_ALL_PACKAGES",
+      "smallType": "应用程序列表",
+      "bigType": "设备信息",
+      "detail": "允许查询设备上的所有应用，无视对方的声明。"
+    },
+    {
+      "permission": "READ_CALENDAR",
+      "smallType": "手机日历",
+      "bigType": "设备信息",
+      "detail": "允许应用读取用户的日历数据。"
+    },
+    {
+      "permission": "WRITE_CALENDAR",
+      "smallType": "手机日历",
+      "bigType": "设备信息",
+      "detail": "允许应用程序写入用户的日历数据。"
+    },
+    {
+      "permission": "READ_CONTACTS",
+      "smallType": "通信录",
+      "bigType": "通讯信息",
+      "detail": "允许应用读取用户的联系人数据。"
+    },
+    {
+      "permission": "READ_LOGS",
+      "smallType": "系统日志",
+      "bigType": "设备信息",
+      "detail": "允许应用读取低级系统日志文件。"
+    },
+    {
+      "permission": "READ_PHONE_STATE",
+      "smallType": "设备标识符",
+      "bigType": "设备信息",
+      "detail": "允许应用访问设备的电话功能。具有此权限的应用程序可以确定此电话的电话号码和序列号,呼叫是否处于活动状态,呼叫所连接的号码等"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "通讯信息": {
+    "短信": [
+      "in_string_xml,value=短信",
+      "<TextView xmlns:ns0=\"http://schemas.android.com/apk/res/android\" ns0:textSize=\"14.0dip\" ns0:textColor=\"@color/gray\" ns0:gravity=\"center_horizontal\" ns0:id=\"@id/msg\" ns0:layout_width=\"0.0dip\" ns0:layout_height=\"wrap_content\" ns0:text=\"短信\" ns0:drawableTop=\"@drawable/msg\" ns0:drawablePadding=\"5.0dip\" ns0:layout_weight=\"1.0\" />"
+    ]
+  },
+  "媒体信息": {
+    "相册": [
+      "in_string_xml,value=请选择2-9张照片",
+      "in_string_xml,value=最多只能选择%d张图片",
+      "in_string_xml,value=最多只能选择%d张图片或视频",
+      "<TextView xmlns:ns0=\"http://schemas.android.com/apk/res/android\" ns0:textSize=\"14.0dip\" ns0:textColor=\"@color/gray\" ns0:layout_gravity=\"bottom|center\" ns0:layout_width=\"wrap_content\" ns0:layout_height=\"wrap_content\" ns0:layout_marginBottom=\"44.0dip\" ns0:text=\"请上传行驶证正面照片\" ns0:drawableTop=\"@drawable/add\" ns0:drawablePadding=\"10.0dip\" />",
+      "<TextView xmlns:ns0=\"http://schemas.android.com/apk/res/android\" ns0:textSize=\"14.0dip\" ns0:textColor=\"@color/gray\" ns0:layout_gravity=\"bottom|center\" ns0:layout_width=\"wrap_content\" ns0:layout_height=\"wrap_content\" ns0:layout_marginBottom=\"44.0dip\" ns0:text=\"请上传行驶证反面照片\" ns0:drawableTop=\"@drawable/add\" ns0:drawablePadding=\"10.0dip\" />",
+      "<TextView xmlns:ns0=\"http://schemas.android.com/apk/res/android\" ns0:textSize=\"14.0dip\" ns0:textColor=\"@color/gray\" ns0:layout_gravity=\"bottom|center\" ns0:layout_width=\"wrap_content\" ns0:layout_height=\"wrap_content\" ns0:layout_marginBottom=\"44.0dip\" ns0:text=\"请上传交通强制险保单照片\" ns0:drawableTop=\"@drawable/add\" ns0:drawablePadding=\"10.0dip\" />",
+      "<TextView xmlns:ns0=\"http://schemas.android.com/apk/res/android\" ns0:textSize=\"14.0dip\" ns0:textColor=\"@color/gray\" ns0:gravity=\"center\" ns0:layout_gravity=\"bottom|center\" ns0:layout_width=\"wrap_content\" ns0:layout_height=\"wrap_content\" ns0:layout_marginBottom=\"44.0dip\" ns0:text=\"如您已经为爱车购买其他商业保险，\\n请上传相关保单照片\" ns0:drawableTop=\"@drawable/add\" ns0:drawablePadding=\"10.0dip\" />",
+      "<TextView xmlns:ns0=\"http://schemas.android.com/apk/res/android\" ns0:textSize=\"12.0sp\" ns0:textColor=\"@color/easy_photos_fg_primary\" ns0:id=\"@id/tv_message\" ns0:padding=\"8.0dip\" ns0:layout_width=\"wrap_content\" ns0:layout_height=\"wrap_content\" ns0:text=\"@string/select_puzzle_photos\" ns0:layout_alignParentLeft=\"true\" ns0:layout_alignParentTop=\"true\" ns0:layout_alignParentStart=\"true\" />",
+      "<TextView xmlns:ns0=\"http://schemas.android.com/apk/res/android\" ns0:textSize=\"14.0dip\" ns0:textColor=\"@color/gray\" ns0:layout_gravity=\"bottom|center\" ns0:layout_width=\"wrap_content\" ns0:layout_height=\"wrap_content\" ns0:layout_marginBottom=\"44.0dip\" ns0:text=\"请上传身份证正面照片\" ns0:drawableTop=\"@drawable/add\" ns0:drawablePadding=\"10.0dip\" />",
+      "<TextView xmlns:ns0=\"http://schemas.android.com/apk/res/android\" ns0:textSize=\"14.0dip\" ns0:textColor=\"@color/gray\" ns0:layout_gravity=\"bottom|center\" ns0:layout_width=\"wrap_content\" ns0:layout_height=\"wrap_content\" ns0:layout_marginBottom=\"44.0dip\" ns0:text=\"请上传身份证反面照片\" ns0:drawableTop=\"@drawable/add\" ns0:drawablePadding=\"10.0dip\" />",
+      "<TextView xmlns:ns0=\"http://schemas.android.com/apk/res/android\" ns0:textSize=\"14.0dip\" ns0:textColor=\"@color/gray\" ns0:layout_gravity=\"bottom|center\" ns0:layout_width=\"wrap_content\" ns0:layout_height=\"wrap_content\" ns0:layout_marginBottom=\"44.0dip\" ns0:text=\"请上传驾驶证正面照片\" ns0:drawableTop=\"@drawable/add\" ns0:drawablePadding=\"10.0dip\" />",
+      "<TextView xmlns:ns0=\"http://schemas.android.com/apk/res/android\" ns0:textSize=\"14.0dip\" ns0:textColor=\"@color/gray\" ns0:layout_gravity=\"bottom|center\" ns0:layout_width=\"wrap_content\" ns0:layout_height=\"wrap_content\" ns0:layout_marginBottom=\"44.0dip\" ns0:text=\"请上传驾驶证反面照片\" ns0:drawableTop=\"@drawable/add\" ns0:drawablePadding=\"10.0dip\" />",
+      "<TextView xmlns:ns0=\"http://schemas.android.com/apk/res/android\" ns0:textSize=\"14.0dip\" ns0:textColor=\"@color/gray\" ns0:layout_gravity=\"bottom|center\" ns0:layout_width=\"wrap_content\" ns0:layout_height=\"wrap_content\" ns0:layout_marginBottom=\"44.0dip\" ns0:text=\"请上传手持身份证照片\" ns0:drawableTop=\"@drawable/add\" ns0:drawablePadding=\"10.0dip\" />",
+      "<TextView xmlns:ns0=\"http://schemas.android.com/apk/res/android\" ns0:textSize=\"14.0dip\" ns0:textColor=\"@color/gray\" ns0:layout_gravity=\"bottom|center\" ns0:layout_width=\"wrap_content\" ns0:layout_height=\"wrap_content\" ns0:layout_marginBottom=\"44.0dip\" ns0:text=\"请上传手持驾驶证照片\" ns0:drawableTop=\"@drawable/add\" ns0:drawablePadding=\"10.0dip\" />"
+    ]
+  },
+  "APP功能相关信息": {
+    "验证码": [
+      "<TextView xmlns:ns0=\"http://schemas.android.com/apk/res/android\" ns0:textSize=\"18.0dip\" ns0:textColor=\"#ffffffff\" ns0:gravity=\"center\" ns0:layout_gravity=\"center_horizontal\" ns0:id=\"@id/sendCode\" ns0:background=\"@drawable/long_btn\" ns0:layout_width=\"346.0dip\" ns0:layout_height=\"44.0dip\" ns0:layout_marginTop=\"71.0dip\" ns0:text=\"获取验证码\" />",
+      "<TextView xmlns:ns0=\"http://schemas.android.com/apk/res/android\" ns0:textSize=\"16.0dip\" ns0:textColor=\"#ff999999\" ns0:layout_width=\"wrap_content\" ns0:layout_height=\"wrap_content\" ns0:text=\"验证码\" />",
+      "<TextView xmlns:ns0=\"http://schemas.android.com/apk/res/android\" ns0:textSize=\"18.0dip\" ns0:textColor=\"#ffffffff\" ns0:gravity=\"center\" ns0:layout_gravity=\"center_horizontal\" ns0:id=\"@id/sendCode\" ns0:background=\"@drawable/long_btn\" ns0:layout_width=\"346.0dip\" ns0:layout_height=\"44.0dip\" ns0:layout_marginTop=\"29.0dip\" ns0:text=\"获取验证码\" />"
+    ],
+    "车牌号码": [
+      "<TextView xmlns:ns0=\"http://schemas.android.com/apk/res/android\" ns0:textSize=\"16.0dip\" ns0:textColor=\"#ff999999\" ns0:layout_width=\"wrap_content\" ns0:layout_height=\"wrap_content\" ns0:text=\"车牌号\" />"
+    ],
+    "昵称": [
+      "<TextView xmlns:ns0=\"http://schemas.android.com/apk/res/android\" ns0:textSize=\"16.0dip\" ns0:textColor=\"@color/titleBlack\" ns0:layout_width=\"wrap_content\" ns0:layout_height=\"wrap_content\" ns0:text=\"昵称\" />",
+      "<TextView xmlns:ns0=\"http://schemas.android.com/apk/res/android\" ns0:textSize=\"16.0dip\" ns0:textColor=\"#ff999999\" ns0:layout_width=\"wrap_content\" ns0:layout_height=\"wrap_content\" ns0:text=\"昵称\" />",
+      "<TextView xmlns:ns0=\"http://schemas.android.com/apk/res/android\" ns0:textSize=\"16.0dip\" ns0:textColor=\"@color/titleBlack\" ns0:layout_width=\"0.0dip\" ns0:layout_height=\"wrap_content\" ns0:text=\"昵称\" ns0:layout_weight=\"1.0\" />"
+    ],
+    "密码": [
+      "<TextView xmlns:ns0=\"http://schemas.android.com/apk/res/android\" ns0:textSize=\"16.0dip\" ns0:textColor=\"#ff999999\" ns0:layout_width=\"wrap_content\" ns0:layout_height=\"wrap_content\" ns0:text=\"密码\" />",
+      "<TextView xmlns:ns0=\"http://schemas.android.com/apk/res/android\" ns0:textSize=\"16.0dip\" ns0:textColor=\"#ff999999\" ns0:id=\"@id/pwdText\" ns0:layout_width=\"wrap_content\" ns0:layout_height=\"wrap_content\" ns0:text=\"密码\" />"
+    ],
+    "头像": [
+      "<TextView xmlns:ns0=\"http://schemas.android.com/apk/res/android\" ns0:textSize=\"16.0dip\" ns0:textColor=\"@color/titleBlack\" ns0:gravity=\"center_vertical\" ns0:layout_width=\"0.0dip\" ns0:layout_height=\"fill_parent\" ns0:text=\"头像\" ns0:layout_weight=\"1.0\" />"
+    ],
+    "银行卡号": [
+      "<TextView xmlns:ns0=\"http://schemas.android.com/apk/res/android\" ns0:textSize=\"16.0dip\" ns0:textColor=\"@color/gray\" ns0:layout_width=\"wrap_content\" ns0:layout_height=\"wrap_content\" ns0:text=\"银行卡号\" />",
+      "<com.wclm.carowner.view.ClearEditText xmlns:ns0=\"http://schemas.android.com/apk/res/android\" ns0:textSize=\"16.0dip\" ns0:textColor=\"@color/titleBlack\" ns0:textColorHint=\"@color/gray\" ns0:gravity=\"center_vertical\" ns0:id=\"@id/BankNo\" ns0:background=\"@android:color/transparent\" ns0:layout_width=\"fill_parent\" ns0:layout_height=\"fill_parent\" ns0:layout_marginLeft=\"34.0dip\" ns0:hint=\"请填写卡号\" ns0:maxLines=\"1\" ns0:inputType=\"number\" />"
+    ],
+    "持卡人姓名": [
+      "<TextView xmlns:ns0=\"http://schemas.android.com/apk/res/android\" ns0:textSize=\"16.0dip\" ns0:textColor=\"@color/gray\" ns0:layout_width=\"wrap_content\" ns0:layout_height=\"wrap_content\" ns0:text=\"持卡人姓名\" />"
+    ]
+  },
+  "个人基本信息": {
+    "手机号码": [
+      "<TextView xmlns:ns0=\"http://schemas.android.com/apk/res/android\" ns0:textSize=\"16.0dip\" ns0:textColor=\"#ff999999\" ns0:layout_width=\"wrap_content\" ns0:layout_height=\"wrap_content\" ns0:text=\"联系电话\" />",
+      "<TextView xmlns:ns0=\"http://schemas.android.com/apk/res/android\" ns0:textSize=\"14.0dip\" ns0:textColor=\"#ff999999\" ns0:paddingLeft=\"12.0dip\" ns0:layout_width=\"wrap_content\" ns0:layout_height=\"wrap_content\" ns0:layout_marginTop=\"30.0dip\" ns0:text=\"请输入手机号码\" />",
+      "<TextView xmlns:ns0=\"http://schemas.android.com/apk/res/android\" ns0:textSize=\"16.0dip\" ns0:textColor=\"#ff999999\" ns0:layout_width=\"wrap_content\" ns0:layout_height=\"wrap_content\" ns0:text=\"手机号码\" />",
+      "<TextView xmlns:ns0=\"http://schemas.android.com/apk/res/android\" ns0:textSize=\"16.0dip\" ns0:textColor=\"#ff999999\" ns0:id=\"@id/phoneText\" ns0:layout_width=\"wrap_content\" ns0:layout_height=\"wrap_content\" ns0:text=\"手机号\" />"
+    ],
+    "行驶证": [
+      "<TextView xmlns:ns0=\"http://schemas.android.com/apk/res/android\" ns0:textSize=\"14.0dip\" ns0:textColor=\"@color/gray\" ns0:layout_gravity=\"bottom|center\" ns0:layout_width=\"wrap_content\" ns0:layout_height=\"wrap_content\" ns0:layout_marginBottom=\"44.0dip\" ns0:text=\"请上传行驶证正面照片\" ns0:drawableTop=\"@drawable/add\" ns0:drawablePadding=\"10.0dip\" />",
+      "<TextView xmlns:ns0=\"http://schemas.android.com/apk/res/android\" ns0:textSize=\"14.0dip\" ns0:textColor=\"@color/gray\" ns0:layout_gravity=\"bottom|center\" ns0:layout_width=\"wrap_content\" ns0:layout_height=\"wrap_content\" ns0:layout_marginBottom=\"44.0dip\" ns0:text=\"请上传行驶证反面照片\" ns0:drawableTop=\"@drawable/add\" ns0:drawablePadding=\"10.0dip\" />"
+    ],
+    "姓名": [
+      "<TextView xmlns:ns0=\"http://schemas.android.com/apk/res/android\" ns0:textSize=\"16.0dip\" ns0:textColor=\"#ff999999\" ns0:layout_width=\"wrap_content\" ns0:layout_height=\"wrap_content\" ns0:text=\"真实姓名\" />",
+      "<com.wclm.carowner.view.ClearEditText xmlns:ns0=\"http://schemas.android.com/apk/res/android\" ns0:textSize=\"16.0dip\" ns0:textColor=\"#ff000000\" ns0:textColorHint=\"#ffb7b7b7\" ns0:id=\"@id/trueName\" ns0:background=\"@null\" ns0:layout_width=\"fill_parent\" ns0:layout_height=\"wrap_content\" ns0:layout_marginLeft=\"34.0dip\" ns0:hint=\"请填写您的真实姓名\" ns0:maxLines=\"1\" ns0:inputType=\"text\" />",
+      "<com.wclm.carowner.view.ClearEditText xmlns:ns0=\"http://schemas.android.com/apk/res/android\" ns0:textSize=\"16.0dip\" ns0:textColor=\"@color/titleBlack\" ns0:textColorHint=\"@color/gray\" ns0:gravity=\"center_vertical\" ns0:id=\"@id/RealName\" ns0:background=\"@android:color/transparent\" ns0:layout_width=\"fill_parent\" ns0:layout_height=\"fill_parent\" ns0:layout_marginLeft=\"18.0dip\" ns0:hint=\"请填写持卡人姓名\" ns0:maxLines=\"1\" ns0:inputType=\"text\" />"
+    ],
+    "身份证": [
+      "<TextView xmlns:ns0=\"http://schemas.android.com/apk/res/android\" ns0:textSize=\"16.0dip\" ns0:textColor=\"#ff999999\" ns0:layout_width=\"wrap_content\" ns0:layout_height=\"wrap_content\" ns0:text=\"身份证号\" />",
+      "<com.wclm.carowner.view.ClearEditText xmlns:ns0=\"http://schemas.android.com/apk/res/android\" ns0:textSize=\"16.0dip\" ns0:textColor=\"#ff000000\" ns0:textColorHint=\"#ffb7b7b7\" ns0:id=\"@id/identity\" ns0:background=\"@null\" ns0:layout_width=\"fill_parent\" ns0:layout_height=\"wrap_content\" ns0:layout_marginLeft=\"34.0dip\" ns0:hint=\"请填写您的身份证号码\" ns0:maxLines=\"1\" ns0:digits=\"0123456789xX\" />",
+      "<TextView xmlns:ns0=\"http://schemas.android.com/apk/res/android\" ns0:textSize=\"14.0dip\" ns0:textColor=\"@color/gray\" ns0:layout_gravity=\"bottom|center\" ns0:layout_width=\"wrap_content\" ns0:layout_height=\"wrap_content\" ns0:layout_marginBottom=\"44.0dip\" ns0:text=\"请上传身份证正面照片\" ns0:drawableTop=\"@drawable/add\" ns0:drawablePadding=\"10.0dip\" />",
+      "<TextView xmlns:ns0=\"http://schemas.android.com/apk/res/android\" ns0:textSize=\"14.0dip\" ns0:textColor=\"@color/gray\" ns0:layout_gravity=\"bottom|center\" ns0:layout_width=\"wrap_content\" ns0:layout_height=\"wrap_content\" ns0:layout_marginBottom=\"44.0dip\" ns0:text=\"请上传身份证反面照片\" ns0:drawableTop=\"@drawable/add\" ns0:drawablePadding=\"10.0dip\" />",
+      "<TextView xmlns:ns0=\"http://schemas.android.com/apk/res/android\" ns0:textSize=\"14.0dip\" ns0:textColor=\"@color/gray\" ns0:layout_gravity=\"bottom|center\" ns0:layout_width=\"wrap_content\" ns0:layout_height=\"wrap_content\" ns0:layout_marginBottom=\"44.0dip\" ns0:text=\"请上传手持身份证照片\" ns0:drawableTop=\"@drawable/add\" ns0:drawablePadding=\"10.0dip\" />"
+    ],
+    "驾驶证": [
+      "<com.wclm.carowner.view.ClearEditText xmlns:ns0=\"http://schemas.android.com/apk/res/android\" ns0:textSize=\"16.0dip\" ns0:textColor=\"#ff000000\" ns0:textColorHint=\"#ffb7b7b7\" ns0:id=\"@id/driveNum\" ns0:background=\"@null\" ns0:layout_width=\"fill_parent\" ns0:layout_height=\"wrap_content\" ns0:layout_marginLeft=\"34.0dip\" ns0:hint=\"请填写您的驾照编号\" ns0:maxLines=\"1\" ns0:inputType=\"number\" />",
+      "<TextView xmlns:ns0=\"http://schemas.android.com/apk/res/android\" ns0:textSize=\"14.0dip\" ns0:textColor=\"@color/gray\" ns0:layout_gravity=\"bottom|center\" ns0:layout_width=\"wrap_content\" ns0:layout_height=\"wrap_content\" ns0:layout_marginBottom=\"44.0dip\" ns0:text=\"请上传驾驶证正面照片\" ns0:drawableTop=\"@drawable/add\" ns0:drawablePadding=\"10.0dip\" />",
+      "<TextView xmlns:ns0=\"http://schemas.android.com/apk/res/android\" ns0:textSize=\"14.0dip\" ns0:textColor=\"@color/gray\" ns0:layout_gravity=\"bottom|center\" ns0:layout_width=\"wrap_content\" ns0:layout_height=\"wrap_content\" ns0:layout_marginBottom=\"44.0dip\" ns0:text=\"请上传驾驶证反面照片\" ns0:drawableTop=\"@drawable/add\" ns0:drawablePadding=\"10.0dip\" />",
+      "<TextView xmlns:ns0=\"http://schemas.android.com/apk/res/android\" ns0:textSize=\"14.0dip\" ns0:textColor=\"@color/gray\" ns0:layout_gravity=\"bottom|center\" ns0:layout_width=\"wrap_content\" ns0:layout_height=\"wrap_content\" ns0:layout_marginBottom=\"44.0dip\" ns0:text=\"请上传手持驾驶证照片\" ns0:drawableTop=\"@drawable/add\" ns0:drawablePadding=\"10.0dip\" />"
+    ]
+  }
+}
