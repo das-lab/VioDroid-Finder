@@ -8,4 +8,4 @@ and their metadata (including app version, app developer, app update time, app d
 privacy policy page source code, etc.). We present an example
 in `dataset/apps`.
 
-All these data can be downloaded from `https://pan.baidu.com/s/1ulm35u6AOL83VQbaye_o-g?pwd=85f3`
+All these data can be downloaded from [Baidu NetDisk](https://pan.baidu.com/s/1ulm35u6AOL83VQbaye_o-g?pwd=85f3)

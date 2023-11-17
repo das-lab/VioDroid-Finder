@@ -23,7 +23,7 @@ Note that the name `C100003425-1.3.10.txt` consists of the app id (C100003425, t
 page is https://appgallery.huawei.com/app/C100003425) and app
 version (1.3.10).
 
-All these data can be downloaded from `https://pan.baidu.com/s/1ulm35u6AOL83VQbaye_o-g?pwd=85f3`
+All these data can be downloaded from [Baidu NetDisk](https://pan.baidu.com/s/1ulm35u6AOL83VQbaye_o-g?pwd=85f3)
 
 Labelled sentences examples (containing 5000 sentences) are presented in `dataset/dataset.csv`.
 
