@@ -5,7 +5,7 @@ Consistency for Android Apps"
 
 ## Regulation wiki
 
-We collect all Chinese regulations related personal privacy in `wiki`.
+We provide collected Chinese regulations related to personal privacy in `wiki`.
 
 ## Data
 
