@@ -17,7 +17,9 @@ Data used in this study contains:
 For each app, we provide its privacy policy text, APK file, privacy policy screenshot (of their privacy policy web page)
 and their metadata (including app version, app developer, app update time, app download count, privacy policy url,
 privacy policy page source code, etc.). We present an example
-in `dataset/apps`. Note that the name `C100003425-1.3.10.txt` consists of the app id (C100003425, the corresponding home
+in `dataset/apps`.
+
+Note that the name `C100003425-1.3.10.txt` consists of the app id (C100003425, the corresponding home
 page is https://appgallery.huawei.com/app/C100003425) and app
 version (1.3.10).
 
@@ -29,9 +31,10 @@ Labelled sentences examples (containing 5000 sentences) are presented in `datase
 
 This module parses privacy policy text to XML file (by running `policy_structure_parser/run.py`).
 
-We present two examples, the Chinese example is as follows: original privacy
-policies `policy_structure_parser/original_policies/original_policy_chinese.txt`, and the parsed XML
-file `policy_structure_parser/parsed_policies/parsed_policy_chinese.txt`.
+We present two examples, the Chinese example is as follows:
+
++ Original privacy policies `policy_structure_parser/original_policies/original_policy_chinese.txt`
++ The parsed XML file `policy_structure_parser/parsed_policies/parsed_policy_chinese.txt`.
 
 ## Violation Analyzer
 
