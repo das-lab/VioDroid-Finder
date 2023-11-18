@@ -16,14 +16,17 @@ Data used in this study contains:
 
 For each app, we provide its privacy policy text, APK file, privacy policy screenshot (of their privacy policy web page)
 and their metadata (including app version, app developer, app update time, app download count, privacy policy url,
-privacy policy page source code, etc.). We present an example
-in `dataset/apps`.
+privacy policy page source code, etc.).
 
-Note that the name `C100003425-1.3.10.txt` consists of the app id (C100003425, the corresponding home
-page is https://appgallery.huawei.com/app/C100003425) and app
-version (1.3.10).
+The privacy policies and metadata of 600 target apps are in `dataset/apps`.
 
-All these data can be downloaded from [Baidu NetDisk](https://pan.baidu.com/s/1ulm35u6AOL83VQbaye_o-g?pwd=85f3)
+We also present an example in `dataset/apps`:
+
++ Note that the app data file name `C100003425-1.3.10.txt` consists of the app id (C100003425, the corresponding home
+  page is https://appgallery.huawei.com/app/C100003425) and app
+  version (1.3.10).
+
+The complete data can be downloaded from [Baidu NetDisk](https://pan.baidu.com/s/1ulm35u6AOL83VQbaye_o-g?pwd=85f3)
 
 Labelled sentences examples (containing 5000 sentences) are presented in `dataset/dataset.csv`.
 
