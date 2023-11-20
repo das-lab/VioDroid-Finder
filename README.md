@@ -13,6 +13,8 @@ Data used in this study contains:
 
 1. Our evaluation targets (discussed in this paper): 600 apps
 2. Other apps that are used for creating privacy policy corpus: 40000+ apps
+3. Chinese privacy policy corpus (300+ MB) and a word2vec model trained on
+   corpus: [Google Drive](https://drive.google.com/drive/folders/1xMO7TEQkpsT_yQCKwX55sFsd_gYl6gQ7)
 
 For each app, we provide its privacy policy text, APK file, privacy policy screenshot (of their privacy policy web page)
 and their metadata (including app version, app developer, app update time, app download count, privacy policy url,
