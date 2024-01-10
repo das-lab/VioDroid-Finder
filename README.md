@@ -51,3 +51,7 @@ policies (`violation_analyzer/policy_sentence_classification.py`)
 This module analyzes the permission, api and GUI of an APK file, an example is shown
 in `inconsistency_analyzer/permission_api_analyzer/permission_api_result`
 and `inconsistency_analyzer/gui_analyzer/gui_result`.
+
++ Modify the target APK file path of `inconsistency_analyzer/permission_api_analyzer/run.py` and run, to analyze the Permission and API of the APK
+
++ Modify the target APK file path of `inconsistency_analyzer/gui_analyzer/run.py` and run, to analyze the GUI of the APK
