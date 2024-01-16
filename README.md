@@ -30,7 +30,7 @@ We also present an example in `dataset/apps`:
 
 The complete data can be downloaded from [Baidu NetDisk](https://pan.baidu.com/s/1ulm35u6AOL83VQbaye_o-g?pwd=85f3)
 
-Labelled sentences examples (containing 5000 sentences) are presented in `dataset/dataset.csv`.
+Labelled sentences examples (containing 5000+ sentences) are presented in `dataset/dataset.csv`.
 
 ## Policy Structure Parser
 
