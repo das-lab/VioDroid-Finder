@@ -110,7 +110,7 @@
   },
   "v5-cross_border_transmission": {
     "flag": 0,
-    "nc": []
+    "missing crs": []
   },
   "v6-completeness": []
 }
