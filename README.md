@@ -22,7 +22,7 @@ privacy policy page source code, etc.).
 
 The privacy policies and metadata of 600 target apps are in `dataset/apps`.
 
-We also present an example in `dataset/apps`:
+We also present an example in `dataset/apps` [click here](https://github.com/das-lab/VioDroid-Finder/tree/main/dataset/apps):
 
 + Note that the app data file name `C100003425-1.3.10.txt` consists of the app id (C100003425, the corresponding home
   page is https://appgallery.huawei.com/app/C100003425) and app
