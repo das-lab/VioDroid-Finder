@@ -46,6 +46,8 @@ We present two examples, the Chinese example is as follows:
 This module mainly implements classification of sentences in privacy
 policies (`violation_analyzer/policy_sentence_classification.py`)
 
+The code for classification model training are in `violation_analyzer/model_training`
+
 ## Inconsistency Analyzer
 
 This module analyzes the permission, api and GUI of an APK file, an example is shown
