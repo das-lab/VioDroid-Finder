@@ -9,10 +9,10 @@ privacy policy page source code, etc.).
 
 The privacy policies and metadata of 600 target apps are in `dataset/apps`. 
 
-We present an example in `dataset/apps`:
-+ C100003425-1.3.10.apk: the APK file
-+ C100003425-1.3.10.json: the app metadata
-+ C100003425-1.3.10.txt: the privacy policy
-+ C100003425-1.3.10.png: the privacy policy screenshot
+We present examples in `dataset/apps`:
++ {_app_id_-_app_version_}.apk: the APK file
++ {_app_id_-_app_version_}.json: the app metadata
++ {_app_id_-_app_version_}.txt: the privacy policy
++ {_app_id_-_app_version_}.png: the privacy policy screenshot
 
 The complete data can be downloaded from [Baidu NetDisk](https://pan.baidu.com/s/1ulm35u6AOL83VQbaye_o-g?pwd=85f3)

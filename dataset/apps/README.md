@@ -3,8 +3,8 @@
 + 600 target apps_policies.zip: the privacy policies of 600 target apps (evaluation targets mentioned in the paper)
 
 # An example
-+ C100003425-1.3.10.apk: the APK file
-+ C100003425-1.3.10.json: the app metadata
++ {_app_id_-_app_version_}.apk: the APK file
++ {_app_id_-_app_version_}.json: the app metadata
   + app_id
   + app_name
   + app_version
@@ -36,5 +36,5 @@
   + v4-sharing: _The detection result for v4_
   + v5-cross_border_transmission: _The detection result for v5_
   + v6-completeness: _The detection result for v6_
-+ C100003425-1.3.10.txt: the privacy policy
-+ C100003425-1.3.10.png: the privacy policy screenshot
++ {_app_id_-_app_version_}.txt: the privacy policy
++ {_app_id_-_app_version_}.png: the privacy policy screenshot
