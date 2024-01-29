@@ -31,7 +31,7 @@ in `dataset/apps` [click here](https://github.com/das-lab/VioDroid-Finder/tree/m
 
 The complete data can be downloaded from [Baidu NetDisk](https://pan.baidu.com/s/1ulm35u6AOL83VQbaye_o-g?pwd=85f3)
 
-Labelled sentences examples (containing 5000 sentences) are presented in `dataset/dataset.csv`. Examples of annotation is shown below:
+Labelled sentences examples (containing 5000 sentences) are presented in `dataset/labelled_dataset.csv`. Examples of annotation is shown below:
 
 | Compliance rule                                                                      |                                          Annotation scheme |                                                                    Example                                                                     |
 |--------------------------------------------------------------------------------------|-----------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------:|
