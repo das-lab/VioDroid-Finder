@@ -103,6 +103,24 @@ class policy_structure_parser:
 
         # texts = [t.replace(' ', '') for t in texts] # For Chinese policies, here we remove the spaces from texts
 
+        # "1. \n xxx" -> "1. xxx"
+        alone_pn_index = []
+
+        for index, text in enumerate(texts):
+            for regex in self.paragraph_number_regex:
+                pattern = re.compile(regex)
+                paragraphNumber = pattern.match(text + ' ')
+                if paragraphNumber is not None:
+                    pn_length = len(paragraphNumber.group(1))
+                    if len(text) == pn_length:
+                        alone_pn_index.append(index)
+
+        for index in alone_pn_index:
+            texts[index] += texts[index + 1]
+
+        alone_pn_index_delete = [i + 1 for i in alone_pn_index]
+        texts = [texts[i] for i in range(len(texts)) if i not in alone_pn_index_delete]
+
         for text in texts:
             # split text with periods
             for split_text in text.split('。'):
