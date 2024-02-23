@@ -4,21 +4,21 @@
 
 # An example
 + {_app_id_-_app_version_}.apk: the APK file
-+ {_app_id_-_app_version_}.json: the app metadata
-  + app_id
++ {_app_id_-_app_version_}.json: the app metadata, which includes information that may be useful in future research, including:
+  + app_id: _the id assigned to each app by Huawei AppGallery_
   + app_name
   + app_version
-  + app_download_num_description
+  + app_download_num_description: _the description of the number of downloads_
   + app_package_name
-  + app_score
+  + app_score: _app rating shown in Huawei AppGallery_
   + app_package_size
   + app_package_size_precise
   + app_icon_url
   + app_developer
-  + app_update_time
-  + app_update_description
-  + app_description
-  + app_policy_url
+  + app_update_time: _the last update time of the app (as of the time it is crawled)_
+  + app_update_description: _the update description displayed in Huawei AppGallery_
+  + app_description: _the app description shown in Huawei AppGallery_
+  + app_policy_url: _the privacy policy link of the app_
   + app_listed_permission
   + app_listed_permission_description
   + app_category
@@ -26,10 +26,8 @@
   + app_APK_url
   + app_APK_name
   + app_policy_name
-  + policy_html_source_code: html code of privacy policy page
-  + policy_text
+  + policy_html_source_code: _html code of privacy policy page_
   + policy_html_source_code_clean: _The html code of the privacy policy page (cleaned to retain only the text body, removing some navigation bars etc.)_
-  + policy_text_clean: _The privacy policy text_
   + v1-ambiguous_sentences: _The detection result for v1_
   + v2-sensitive_PI_collection: _The detection result for v2_
   + v3-personalized_display: _The detection result for v3_
