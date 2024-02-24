@@ -29,7 +29,7 @@ in `dataset/apps` [click here](https://github.com/das-lab/VioDroid-Finder/tree/m
   page is https://appgallery.huawei.com/app/C100003425) and app
   version (1.3.10).
 
-The complete data can be downloaded from [Baidu NetDisk](https://pan.baidu.com/s/1ulm35u6AOL83VQbaye_o-g?pwd=85f3)
+The complete data can be downloaded from [Zenodo](https://zenodo.org/records/10690737)
 
 Labelled sentences examples (containing 5000 sentences) are presented in `dataset/labelled_dataset.csv`. Examples of annotation is shown below:
 

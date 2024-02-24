@@ -15,4 +15,4 @@ We present examples in `dataset/apps`:
 + {_app_id_-_app_version_}.txt: the privacy policy
 + {_app_id_-_app_version_}.png: the privacy policy screenshot
 
-The complete data can be downloaded from [Baidu NetDisk](https://pan.baidu.com/s/1ulm35u6AOL83VQbaye_o-g?pwd=85f3)
+The complete data can be downloaded from [Zenodo](https://zenodo.org/records/10690737)
