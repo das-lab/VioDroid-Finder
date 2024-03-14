@@ -20,6 +20,8 @@ For each app, we provide its privacy policy text, APK file, privacy policy scree
 and their metadata (including app version, app developer, app update time, app download count, privacy policy url,
 privacy policy page source code, etc.).
 
+**The complete data can be downloaded from [Zenodo](https://zenodo.org/records/10690737)**
+
 The privacy policies and metadata of 600 target apps are in `dataset/apps`.
 
 We also present an example
@@ -28,8 +30,6 @@ in `dataset/apps` [click here](https://github.com/das-lab/VioDroid-Finder/tree/m
 + Note that the app data file name `C100003425-1.3.10.txt` consists of the app id (C100003425, the corresponding home
   page is https://appgallery.huawei.com/app/C100003425) and app
   version (1.3.10).
-
-The complete data can be downloaded from [Zenodo](https://zenodo.org/records/10690737)
 
 Labelled sentences examples (containing 5000 sentences) are presented in `dataset/labelled_dataset.csv`. Examples of annotation is shown below:
 
