@@ -5,7 +5,7 @@ Consistency for Android Apps"
 
 ## Regulation wiki
 
-We provide collected Chinese regulations related to personal privacy in `wiki`.
+We provide collected Chinese regulations related to personal privacy in [`wiki`](https://github.com/das-lab/VioDroid-Finder/tree/main/wiki).
 
 ## Data
 
